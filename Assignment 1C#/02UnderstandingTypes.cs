@@ -21,20 +21,20 @@ namespace Assignment_1
         }
         static void Main(string[] args)
         {
-            //Class1 bytes = new Class1();
-            //bytes.byteSize();
+            Class1 bytes = new Class1();
+            bytes.byteSize();
 
-            //Class2 centuries = new Class2();
-            //centuries.dataTypedTime();
+            Class2 centuries = new Class2();
+            centuries.dataTypedTime();
 
-            //FizzBuzz fBuzz = new FizzBuzz();
-            //fBuzz.buzzFizz();
+            FizzBuzz fBuzz = new FizzBuzz();
+            fBuzz.buzzFizz();
 
-            //ValidGuess gGame = new ValidGuess();
-            //gGame.guessGame();
+            ValidGuess gGame = new ValidGuess();
+            gGame.guessGame();
 
-            //StarPrinter sPrint = new StarPrinter();
-            //sPrint.printStars();
+            StarPrinter sPrint = new StarPrinter();
+            sPrint.printStars();
 
             Anniversery daysUntil = new Anniversery();
             daysUntil.ageAndAnniversery();

@@ -17,17 +17,21 @@ namespace Assignment_1
             {
                 string temp = Console.ReadLine();
                 i = Convert.ToInt32(temp);
-                if(i%3 == 0)
+                if(i == 0)
+                {
+                    break;
+                }
+                else if (i % 3 == 0 && i % 5 == 0)
+                {
+                    Console.WriteLine("FizzBuzz");
+                }
+                else if (i%3 == 0)
                 {
                     Console.WriteLine("Fizz");
                 }
                 else if(i%5 == 0)
                 {
                     Console.WriteLine("Buzz");
-                }
-                else if(i%3 == 0 && i%5 == 0)
-                {
-                    Console.WriteLine("FizzBuzz");
                 }
                 else
                 {
